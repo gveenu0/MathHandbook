@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Math Handbook</string>
+    <string name="ch1">Number Sets</string>
+    <string name="ch2">Algebra</string>
+    <string name="ch3">Geometry</string>
+    <string name="ch4">Trigonometry</string>
+    <string name="ch5">Matrix and Determinants</string>
+    <string name="ch6">Vectors</string>
+    <string name="ch7">Analytic Geometry</string>
+    <string name="ch8">Differential Calculus</string>
+    <string name="ch9">Integral Calculas</string>
+    <string name="ch10">Differential Equations</string>
+    <string name="ch11">Series</string>
+    <string name="ch12">Probability</string>
+
+    <string name="ch1p1">1.1 Set Identities</string>
+    <string name="ch1p2">1.2 Sets of Number</string>
+    <string name="ch1p3">1.3 Basic Identities</string>
+    <string name="ch1p4">1.4 Complex Numbers</string>
+
+    <string name="ch2p1">2.1 Factoring Formula</string>
+    <string name="ch2p2">2.2 Product Formula</string>
+    <string name="ch2p3">2.3 Powers</string>
+    <string name="ch2p4">2.4 Roots</string>
+    <string name="ch2p5">2.5 Logarithms</string>
+    <string name="ch2p6">2.6 Equations</string>
+    <string name="ch2p7">2.7 Inequalities</string>
+    <string name="ch2p8">2.8 Compound Interest</string>
+
+    <string name="ch3p1">3.1 Right Triangle</string>
+    <string name="ch3p2">3.2 Isosceles Triangle</string>
+    <string name="ch3p3">3.3 Equilateral Triangle</string>
+    <string name="ch3p4">3.4 Scalene Triangle</string>
+    <string name="ch3p5">3.5 Square</string>
+    <string name="ch3p6">3.6 Rectangle</string>
+    <string name="ch3p7">3.7 Parallelogram</string>
+    <string name="ch3p8">3.8 Rhombus</string>
+    <string name="ch3p9">3.9 Trapezoid</string>
+    <string name="ch3p10">3.10 Isosceles Trapezoid</string>
+    <string name="ch3p11">3.11 Isosceles Trapezoid with Insribed Circle</string>
+    <string name="ch3p12">3.12 Trapezoid with Inscribed Circle</string>
+    <string name="ch3p13">3.13 Kite</string>
+    <string name="ch3p14">3.14 Cyclic Quadrilateral</string>
+    <string name="ch3p15">3.15 Tangential Quadrilateral</string>
+    <string name="ch3p16">3.16 Genral Quadrilateral</string>
+    <string name="ch3p17">3.17 Regular Hexagon</string>
+    <string name="ch3p18">3.18 Regular Polygon</string>
+    <string name="ch3p19">3.19 Circle</string>
+    <string name="ch3p20">3.20 Sector of a Circle</string>
+    <string name="ch3p21">3.21 Segment of a Circle</string>
+    <string name="ch3p22">3.22 Cube</string>
+    <string name="ch3p23">3.23 Rectangular Parallelepiped</string>
+    <string name="ch3p24">3.24 Prism</string>
+    <string name="ch3p25">3.25 Regular Tetrahedron</string>
+    <string name="ch3p26">3.26 Regular Pyramid</string>
+    <string name="ch3p27">3.27 Frustum of a Regular Pyramid</string>
+    <string name="ch3p28">3.28 Rectangular RightWedge</string>
+    <string name="ch3p29">3.29 Platonic Solids</string>
+    <string name="ch3p30">3.30 Right Circular Cylinder</string>
+    <string name="ch3p31">3.31 Right Circular Cylinder with an Oblique Plane Face</string>
+    <string name="ch3p32">3.32 Right Circular Cone</string>
+    <string name="ch3p33">3.33 Frustum of a Right Circular Cone</string>
+    <string name="ch3p34">3.34 Sphere</string>
+    <string name="ch3p35">3.35 Spherical Cap</string>
+    <string name="ch3p36">3.36 Spherical Sector</string>
+    <string name="ch3p37">3.37 Spherical Segment</string>
+    <string name="ch3p38">3.38 Spherical Wedge</string>
+    <string name="ch3p39">3.39 Spherical Sector</string>
+    <string name="ch3p40">3.40 Circular Torus</string>
+
+    <string name="ch4p1">4.1 Radian and degree</string>
+    <string name="ch4p2">4.2 Defination and Graph of trigonometric Function</string>
+    <string name="ch4p3">4.3 Signs of Trigonometric Function</string>
+    <string name="ch4p4">4.4 Trignometric Function of Common angle</string>
+    <string name="ch4p5">4.5 Most Important Formula</string>
+    <string name="ch4p6">4.6 Reduction Formula</string>
+    <string name="ch4p7">4.7 Priodicity of Trigonometric Function</string>
+    <string name="ch4p8">4.8 Relationship between Trigonometric</string>
+    <string name="ch4p9">4.9 Addition and subtraction Formula</string>
+    <string name="ch4p10">4.10 Double Angle Formula</string>
+    <string name="ch4p11">4.11 Multiple angle Formula</string>
+    <string name="ch4p12">4.12 Half Angle Formula</string>
+    <string name="ch4p13">4.13 Half Angle Tangent Identities</string>
+    <string name="ch4p14">4.14 Trignometric to Product</string>
+    <string name="ch4p15">4.15 Trigonometric to Sum</string>
+    <string name="ch4p16">4.16 Powers of Trigonometric Function</string>
+    <string name="ch4p17">4.17 Graph of Inverse Trigonometric Function</string>
+    <string name="ch4p18">4.18 Principal Valu of Inverse Trigonometric</string>
+    <string name="ch4p19">4.19 Relation Between Inverse Trignometric</string>
+    <string name="ch4p20">4.20 Trignometric Equation</string>
+    <string name="ch4p21">4.21 Relation to Hyperbolic Function</string>
+
+    <string name="ch5p1">5.1 Determinant</string>
+    <string name="ch5p2">5.2 Properties of Determinant</string>
+    <string name="ch5p3">5.3 Metrices</string>
+    <string name="ch5p4">5.4 Operation with Matrics</string>
+    <string name="ch5p5">5.5 System of Linear Equation</string>
+
+    <string name="ch6p1">6.1 Vector Coordinate</string>
+    <string name="ch6p2">6.2 Vector addition</string>
+    <string name="ch6p3">6.3 Vector Subtraction</string>
+    <string name="ch6p4">6.4 Scaling Vectors</string>
+    <string name="ch6p5">6.5 Scaler Product</string>
+    <string name="ch6p6">6.6 Vector Product</string>
+    <string name="ch6p7">6.7 Triple Product</string>
+
+    <string name="ch7p1">7.1 One Dimention Coordinate system</string>
+    <string name="ch7p2">7.2 Two Dimentional Coordinate System</string>
+    <string name="ch7p3">7.3 Strait Line in Plane</string>
+    <string name="ch7p4">7.4 Circle</string>
+    <string name="ch7p5">7.5 Ellipse</string>
+    <string name="ch7p6">7.6 Hyperbola</string>
+    <string name="ch7p7">7.7 Parabola</string>
+    <string name="ch7p8">7.8 Three Dimention Coordinate System</string>
+    <string name="ch7p9">7.9 Plane</string>
+    <string name="ch7p10">7.10 Straight Line in Space</string>
+    <string name="ch7p11">7.11 Quadrick Surface</string>
+    <string name="ch7p12">7.12 Sphere</string>
+
+    <string name="ch8p1">8.1 Function and Its Graph</string>
+    <string name="ch8p2">8.2 Limits of Function</string>
+    <string name="ch8p3">8.3 Properties of Derivatives</string>
+    <string name="ch8p4">8.4 Table of Derivatives</string>
+    <string name="ch8p5">8.5 Higher Order Derivatives</string>
+    <string name="ch8p6">8.6 Application of Derivatives</string>
+    <string name="ch8p7">8.7 Differential</string>
+    <string name="ch8p8">8.8 Multivariable Function</string>
+    <string name="ch8p9">8.9 Differential Operators</string>
+
+    <string name="ch9p1">9.1 Indefinite Integrals</string>
+    <string name="ch9p2">9.2 Integrals of Rational Function</string>
+    <string name="ch9p3">9.3 Integration of Irrational Function</string>
+    <string name="ch9p4">9.4 Integrals of Trigonometric</string>
+    <string name="ch9p5">9.5 Integral of Hyperbolic</string>
+    <string name="ch9p6">9.6 Integral of Exponential and Logarithmic</string>
+    <string name="ch9p7">9.7 Reduction Formula</string>
+    <string name="ch9p8">9.8 Definite Integrals</string>
+    <string name="ch9p9">9.9 Improper Integrals</string>
+    <string name="ch9p10">9.10 Double Integrals</string>
+    <string name="ch9p11">9.11 Triple integrals</string>
+    <string name="ch9p12">9.12 Line Integrals</string>
+    <string name="ch9p13">9.13 Surface Integrals</string>
+
+    <string name="ch10p1">10.1 First order Differential equation</string>
+    <string name="ch10p2">10.2 Second Order Differential Equation</string>
+    <string name="ch10p3">10.3 Partial Differential Equation</string>
+
+    <string name="ch11p1">11.1 Arithmetic Series</string>
+    <string name="ch11p2">11.2 Geometric Series</string>
+    <string name="ch11p3">11.3 Some Finite Series</string>
+    <string name="ch11p4">11.4 Infinite Series</string>
+    <string name="ch11p5">11.5 Properties of Convergent Series</string>
+    <string name="ch11p6">11.6 Convergence Test</string>
+    <string name="ch11p7">11.7 Alternating Series</string>
+    <string name="ch11p8">11.8 Power Series</string>
+    <string name="ch11p9">11.9 Differentiation and Integration of power Series</string>
+    <string name="ch11p10">11.10 Taylor and Maclaurin Series</string>
+    <string name="ch11p11">11.11 Power Series Expansion</string>
+    <string name="ch11p12">11.12 Binomial Series</string>
+    <string name="ch11p13">11.13 Fourier Series</string>
+
+    <string name="ch12p1">12.1 Permutation and Combination</string>
+    <string name="ch12p2">12.2 Probability Formulas</string>
+    <string name="slogan_login">Math Handbook, Makes Mathematics Easy</string>
+    <string name="continue_with_google">CONTINUE WITH GOOGLE</string>
+
+</resources>

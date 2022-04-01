@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.softtechnotech.mathhandbook">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Topic.Ch11T11" />
+        <activity android:name=".Topic.Ch12T2" />
+        <activity android:name=".Topic.Ch12T1" />
+        <activity android:name=".Topic.Ch11T13" />
+        <activity android:name=".Topic.Ch11T12" />
+        <activity android:name=".Topic.Ch11T10" />
+        <activity android:name=".Topic.Ch11T9" />
+        <activity android:name=".Topic.Ch11T8" />
+        <activity android:name=".Topic.Ch11T7" />
+        <activity android:name=".Topic.Ch11T6" />
+        <activity android:name=".Topic.Ch11T5" />
+        <activity android:name=".Topic.Ch11T4" />
+        <activity android:name=".Topic.Ch11T3" />
+        <activity android:name=".Topic.Ch11T2" />
+        <activity android:name=".Topic.Ch11T1" />
+        <activity android:name=".Topic.Ch10T3" />
+        <activity android:name=".Topic.Ch10T2" />
+        <activity android:name=".Topic.Ch10T1" />
+        <activity android:name=".Topic.Ch9T13" />
+        <activity android:name=".Topic.Ch9T12" />
+        <activity android:name=".Topic.Ch9T11" />
+        <activity android:name=".Topic.Ch9T10" />
+        <activity android:name=".Topic.Ch9T9" />
+        <activity android:name=".Topic.Ch9T8" />
+        <activity android:name=".Topic.Ch9T7" />
+        <activity android:name=".Topic.Ch9T6" />
+        <activity android:name=".Topic.Ch9T5" />
+        <activity android:name=".Topic.Ch9T4" />
+        <activity android:name=".Topic.Ch9T3" />
+        <activity android:name=".Topic.Ch9T2" />
+        <activity android:name=".Topic.Ch9T1" />
+        <activity android:name=".Topic.Ch8T9" />
+        <activity android:name=".Topic.Ch8T8" />
+        <activity android:name=".Topic.Ch8T7" />
+        <activity android:name=".Topic.Ch8T6" />
+        <activity android:name=".Topic.Ch8T5" />
+        <activity android:name=".Topic.Ch8T4" />
+        <activity android:name=".Topic.Ch8T3" />
+        <activity android:name=".Topic.Ch8T2" />
+        <activity android:name=".Topic.Ch8T1" />
+        <activity android:name=".Topic.Ch7T12" />
+        <activity android:name=".Topic.Ch7T11" />
+        <activity android:name=".Topic.Ch7T10" />
+        <activity android:name=".Topic.Ch7T9" />
+        <activity android:name=".Topic.Ch7T8" />
+        <activity android:name=".Topic.Ch7T7" />
+        <activity android:name=".Topic.Ch7T6" />
+        <activity android:name=".Topic.Ch7T5" />
+        <activity android:name=".Topic.Ch7T4" />
+        <activity android:name=".Topic.Ch7T3" />
+        <activity android:name=".Topic.Ch7T2" />
+        <activity android:name=".Topic.Ch7T1" />
+        <activity android:name=".Topic.Ch6T7" />
+        <activity android:name=".Topic.Ch6T6" />
+        <activity android:name=".Topic.Ch6T5" />
+        <activity android:name=".Topic.Ch6T4" />
+        <activity android:name=".Topic.Ch6T3" />
+        <activity android:name=".Topic.Ch6T2" />
+        <activity android:name=".Topic.Ch6T1" />
+        <activity android:name=".Topic.Ch5T5" />
+        <activity android:name=".Topic.Ch5T4" />
+        <activity android:name=".Topic.Ch5T3" />
+        <activity android:name=".Topic.Ch5T2" />
+        <activity android:name=".Topic.Ch5T1" />
+        <activity android:name=".Topic.Ch4T21" />
+        <activity android:name=".Topic.Ch4T20" />
+        <activity android:name=".Topic.Ch4T19" />
+        <activity android:name=".Topic.Ch4T18" />
+        <activity android:name=".Topic.Ch4T17" />
+        <activity android:name=".Topic.Ch4T16" />
+        <activity android:name=".Topic.Ch4T15" />
+        <activity android:name=".Topic.Ch4T14" />
+        <activity android:name=".Topic.Ch4T13" />
+        <activity android:name=".Topic.Ch4T12" />
+        <activity android:name=".Topic.Ch4T11" />
+        <activity android:name=".Topic.Ch4T10" />
+        <activity android:name=".Topic.Ch4T9" />
+        <activity android:name=".Topic.Ch4T8" />
+        <activity android:name=".Topic.Ch4T7" />
+        <activity android:name=".Topic.Ch4T6" />
+        <activity android:name=".Topic.Ch4T5" />
+        <activity android:name=".Topic.Ch4T4" />
+        <activity android:name=".Topic.Ch4T2" />
+        <activity android:name=".Topic.Ch4T3" />
+        <activity android:name=".Topic.Ch4T1" />
+        <activity android:name=".Topic.Ch3T40" />
+        <activity android:name=".Topic.Ch3T39" />
+        <activity android:name=".Topic.Ch3T38" />
+        <activity android:name=".Topic.Ch3T37" />
+        <activity android:name=".Topic.Ch3T36" />
+        <activity android:name=".Topic.Ch3T35" />
+        <activity android:name=".Topic.Ch3T34" />
+        <activity android:name=".Topic.Ch3T33" />
+        <activity android:name=".Topic.Ch3T32" />
+        <activity android:name=".Topic.Ch3T31" />
+        <activity android:name=".Topic.Ch3T30" />
+        <activity android:name=".Topic.Ch3T29" />
+        <activity android:name=".Topic.Ch3T28" />
+        <activity android:name=".Topic.Ch3T27" />
+        <activity android:name=".Topic.Ch3T26" />
+        <activity android:name=".Topic.Ch3T25" />
+        <activity android:name=".Topic.Ch3T24" />
+        <activity android:name=".Topic.Ch3T23" />
+        <activity android:name=".Topic.Ch3T22" />
+        <activity android:name=".Topic.Ch3T21" />
+        <activity android:name=".Topic.Ch3T20" />
+        <activity android:name=".Topic.Ch3T19" />
+        <activity android:name=".Topic.Ch3T18" />
+        <activity android:name=".Topic.Ch3T17" />
+        <activity android:name=".Topic.Ch3T16" />
+        <activity android:name=".Topic.Ch3T15" />
+        <activity android:name=".Topic.Ch3T14" />
+        <activity android:name=".Topic.Ch3T13" />
+        <activity android:name=".Topic.Ch3T12" />
+        <activity android:name=".Topic.Ch3T11" />
+        <activity android:name=".Topic.Ch3T10" />
+        <activity android:name=".Topic.Ch3T9" />
+        <activity android:name=".Topic.Ch3T8" />
+        <activity android:name=".Topic.Ch3T7" />
+        <activity android:name=".Topic.Ch3T6" />
+        <activity android:name=".Topic.Ch3T5" />
+        <activity android:name=".Topic.Ch3T4" />
+        <activity android:name=".Topic.Ch3T3" />
+        <activity android:name=".Topic.Ch3T2" />
+        <activity android:name=".Topic.Ch3T1" />
+        <activity android:name=".Topic.Ch2T8" />
+        <activity android:name=".Topic.Ch2T7" />
+        <activity android:name=".Topic.Ch2T6" />
+        <activity android:name=".Topic.Ch2T5" />
+        <activity android:name=".Topic.Ch2T4" />
+        <activity android:name=".Topic.Ch2T3" />
+        <activity android:name=".Topic.Ch2T2" />
+        <activity android:name=".Topic.Ch2T1" />
+        <activity android:name=".Topic.Ch1T4" />
+        <activity android:name=".Topic.Ch1T3" />
+        <activity android:name=".Topic.Ch1T2" />
+        <activity android:name=".Topic.Ch1T1" />
+        <activity android:name=".chapter.ch12" />
+        <activity android:name=".chapter.ch11" />
+        <activity android:name=".chapter.ch10" />
+        <activity android:name=".chapter.ch9" />
+        <activity android:name=".chapter.ch8" />
+        <activity android:name=".chapter.ch7" />
+        <activity android:name=".chapter.ch6" />
+        <activity android:name=".chapter.ch5" />
+        <activity android:name=".chapter.ch4" />
+        <activity android:name=".chapter.ch3" />
+        <activity android:name=".chapter.ch2" />
+        <activity android:name=".chapter.ch1" />
+        <activity android:name=".authen.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5803830864440853~8459678752" />
+    </application>
+
+</manifest>

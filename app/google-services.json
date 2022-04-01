@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "790659282955",
+    "project_id": "math-handbook-e1f3f",
+    "storage_bucket": "math-handbook-e1f3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790659282955:android:dfcb2f6517ee68e2b96f0e",
+        "android_client_info": {
+          "package_name": "com.softtechnotech.mathhandbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790659282955-qd7e5eibk598533rdd0fh1s8tddko7bq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softtechnotech.mathhandbook",
+            "certificate_hash": "d50ef45bd9046fe965f869d37c160d604b51dc51"
+          }
+        },
+        {
+          "client_id": "790659282955-dmvi1q484jgrbnioumc5aevlhuahseae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_IZmgy-t6Q4nJY1k-gMQRnOIqxvasflM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790659282955-dmvi1q484jgrbnioumc5aevlhuahseae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

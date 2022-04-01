@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chapter.ch3">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="?attr/actionBarSize"
+        app:title="@string/ch3"
+        app:titleTextColor="@color/text_view"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ScrollView
+        android:id="@+id/scrollview_home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar1"
+        app:layout_constraintBottom_toTopOf="@id/adView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_ch3p1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p1"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p2"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p3"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p4"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/tv_ch3p5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p5"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p6"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p7"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p8"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p9"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p10"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p11"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p12"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/tv_ch3p13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p13"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p14"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p15"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p16"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/tv_ch3p17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p17"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p18"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p19"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p20"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/tv_ch3p21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p21"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p22"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p23"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p24"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/tv_ch3p25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p25"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p26"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p27"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p28"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/tv_ch3p29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p29"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p30"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p31"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p32"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/tv_ch3p33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p33"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p34"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p35"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p36"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/tv_ch3p37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p37"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p38"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p39"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_ch3p40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_style1"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:textColor="@color/text"
+                android:onClick="openChap"
+                android:text="@string/ch3p40"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintRight_toRightOf="parent"
+        ads:adUnitId="ca-app-pub-5803830864440853/2318132573">
+    </com.google.android.gms.ads.AdView>
+</androidx.constraintlayout.widget.ConstraintLayout>
